@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(66, 66, 253);
+    font: normal 15pt Arial;
+    font-weight: 510;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius:  40px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.521) ;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    margin: 20px;
+    transition: all 0.7s ease 0s;
+}
+
+input[type='button']{
+    background-color: white;
+    border:  rgb(92, 92, 255) solid 2px;
+    border-radius: 200px;
+    padding: 10px 20px;
+    color:  rgb(92, 92, 255);
+    font-weight: bold;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+}
+
+input[type='button']:hover{
+    background-color:  rgb(92, 92, 255);
+    border: rgb(0, 99, 228) solid 2px;
+    border-radius: 200px;
+    padding: 10px 40px;
+    color:  white;
+    font-weight: bold;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 200px;
+    color:  black;
+    border:  black solid 2px;
+    padding: 4px;
+    margin: auto;
+    cursor: pointer;
+}
+
+h1{
+    transition: all 0.7s ease 0s;
+}
+
+h1:hover{
+    transition: all 0.7s ease 0s;
+    color: rgb(238, 255, 0);
+    cursor: pointer;
+}
+
+
+  
